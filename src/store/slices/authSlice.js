@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import config from '../../config/config';
 
+const app = 2;
 const API_URL = config.API_URL;
 
 // Async thunks
